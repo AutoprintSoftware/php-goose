@@ -1,9 +1,5 @@
 # PHP Goose - Article Extractor
 
-## Note
-
-This repository has been archived as of 2023-09-05.
-
 ## Intro
 
 PHP Goose is a port of [Goose](https://github.com/GravityLabs/goose/) originally developed in Java and converted to Scala by [GravityLabs](https://github.com/GravityLabs/). Portions have also been ported from the Python port [python-goose](https://github.com/grangier/python-goose). Its mission is to take any news article or article type web page and not only extract what is the main body of the article but also all metadata and most probable image candidate.
@@ -25,7 +21,7 @@ The PHP version was rewritten by:
 
 ## Requirement
 
- - PHP 7.1 or later
+ - PHP 8.1 or later
  - PSR-4 compatible autoloader
  
 The older 0.x versions with PHP 5.5+ support are still available under [releases](https://github.com/scotteh/php-goose/releases).
@@ -38,7 +34,7 @@ Add the dependency into your projects composer.json.
 ```
 {
   "require": {
-    "scotteh/php-goose": "^1.0"
+    "AutoprintSoftware/php-goose": "^1.0"
   }
 }
 ```
